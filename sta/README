@@ -1,0 +1,10 @@
+# Star Wars API Test Automation
+
+Este projeto automatiza testes para a API pública de Star Wars (https://swapi.dev/). Ele utiliza Node.js, Jest e GitHub Actions para verificar a funcionalidade de diferentes endpoints da API.
+
+## Funcionalidades
+- Teste de endpoints de planetas, naves, filmes e personagens.
+- Verificação de rotas inexistentes.
+- Automação de cada teste individual usando GitHub Actions.
+
+Cada teste está configurado em um workflow separado no GitHub Actions, permitindo a execução granular e paralela. Este projeto demonstra boas práticas de integração contínua e automação de testes.
